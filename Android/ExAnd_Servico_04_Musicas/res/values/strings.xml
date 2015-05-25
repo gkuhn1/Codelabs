@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">Service_Música</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Serviços</string>
+    <string name="inicia">Iniciar o Serviço</string>
+    <string name="para">Parar o Serviço</string>
+
+</resources>

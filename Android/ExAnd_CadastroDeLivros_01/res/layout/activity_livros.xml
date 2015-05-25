@@ -1,0 +1,64 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="5dp"
+    android:stretchColumns="1"
+    tools:context=".AddNovoLivro" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/LivroLabelTextView"
+            android:text="@string/rotuloTitulo"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/lblTitulo"
+            style="@style/LivroTextView"
+            android:text="@string/titulo"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/LivroLabelTextView"
+            android:text="@string/rotuloEditora"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/lblEditora"
+            style="@style/LivroTextView"
+            android:text="@string/editora"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView3"
+            style="@style/LivroLabelTextView"
+            android:text="@string/rotuloISBN"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/lblISBN"
+            style="@style/LivroTextView"
+            android:text="@string/isbn"
+            android:textSize="20sp" />
+    </TableRow>
+
+</TableLayout>
+

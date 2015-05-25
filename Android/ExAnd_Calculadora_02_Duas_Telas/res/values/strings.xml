@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="app_name">Calculos</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+	
+	<string name="rotulo1">Entre o Primeiro Valor</string>
+	<string name="rotulo2">Entre o Segundo Valor</string>
+	<string name="rotulo3">Resultado</string>
+	<string name="rotulo4">Cálculo</string>
+	<string name="rotulo5">Soma</string>
+	<string name="rotulo6">Subtração.</string>
+	<string name="rotulo7">Multiplicação</string>
+	<string name="rotulo8">Divisão</string>
+</resources>

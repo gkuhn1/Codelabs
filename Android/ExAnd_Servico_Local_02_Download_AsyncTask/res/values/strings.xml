@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">Aula08_Exemplo03_Service</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Servicos_2</string>
+    <string name="inicia">Inicia o Serviço</string>
+    <string name="para">Para o Serviço</string>
+</resources>

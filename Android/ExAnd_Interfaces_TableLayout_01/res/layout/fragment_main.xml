@@ -1,0 +1,20 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="wrap_content"
+	android:layout_height="fill_parent">
+	
+	<TableRow>
+		<TextView android:text="Nome:" />
+		<EditText android:text="" />
+	</TableRow>
+	
+	<TableRow>
+		<TextView android:text="Data Nasc.:" />
+		<EditText android:text="" />
+	</TableRow>
+	
+	<TableRow>
+		<Button android:text="Cadastrar" />
+	</TableRow>
+
+</TableLayout>

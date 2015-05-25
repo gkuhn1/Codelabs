@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+	<string name="app_name">Buscador de CEPs</string>
+	<string name="cep_desc">CEP:</string>
+	<string name="estado">Estado:</string>
+	<string name="cidade">Cidade:</string>
+	<string name="bairro">Bairro:</string>
+	<string name="tipo_logradouro">Tipo Logradouro:</string>
+	<string name="logradouro">Logradouro:</string>
+	<string name="complemento">Complemento:</string>
+    
+</resources>

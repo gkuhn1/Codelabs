@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">Ex. Gallery</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Ex. Gallery</string>
+
+    <string name="avioes">Aviões da II Guerra Mundial</string>
+</resources>

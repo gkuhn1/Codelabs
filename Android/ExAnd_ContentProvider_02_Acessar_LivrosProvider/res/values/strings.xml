@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">ContentProvider</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Consulta Livros CP</string>
+	<string name="botao1">Acessa Livros via CP</string>
+	<string name="conteudo">Livros</string>
+</resources>

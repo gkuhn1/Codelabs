@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.exand_interfaces_dialogs_01.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <Button
+        android:id="@+id/btnAlertBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AlertBox" />
+
+    <Button
+        android:id="@+id/btnProgresso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btnAlertBox"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="23dp"
+        android:text="Progresso" />
+
+</RelativeLayout>
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Despertador Aula</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Configurações</string>
+    <string name="lblHorario">Horário: </string>
+    <string name="menuAdicionarHorario">Adicionar Horário</string>
+    <string name="menuSair">Sair</string>
+    <string name="menuConfiguracoes">Configurações</string>
+    <string name="title_activity_cadastro_horarios">CadastroHorarios</string>
+    <string name="btnSalvarHorario">Salvar</string>
+
+</resources>

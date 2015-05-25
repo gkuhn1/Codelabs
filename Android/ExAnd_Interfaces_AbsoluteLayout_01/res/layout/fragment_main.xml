@@ -1,0 +1,27 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/absoluteLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+ <!-- Absolute layout precisa ser adicionado manualmente pois foi depreciado, veja mensagem de aviso acima  -->
+    
+   <EditText
+            android:id="@+id/editText1"
+            android:layout_width="248dp"
+            android:layout_height="wrap_content"
+            android:layout_x="39dp"
+            android:layout_y="58dp" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="59dp"
+            android:layout_y="138dp"
+            android:text="Button" />
+
+</AbsoluteLayout>

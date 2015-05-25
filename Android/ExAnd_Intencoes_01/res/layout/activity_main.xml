@@ -1,0 +1,29 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnBrowser"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rotulo1" />
+
+        <Button
+            android:id="@+id/btnFone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rotulo2" />
+
+        <Button
+            android:id="@+id/btnMaps"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rotulo3" />
+         <Button
+            android:id="@+id/btnContatos"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rotulo4" />
+    </LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ExAnd_Calculadora_01</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="opcoes">
+        <item>Somar</item>
+        <item>Subtrair</item>
+        <item>Multiplcar</item>
+        <item>Dividir</item>
+    </string-array>
+
+    <string name="title_activity_resultado">Resultado</string>
+
+</resources>

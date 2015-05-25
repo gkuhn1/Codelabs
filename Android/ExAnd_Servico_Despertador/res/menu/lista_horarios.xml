@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.exand_servico_despertador.ListaHorarios" >
+
+    <item
+        android:id="@+id/menuAdicionarLista"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/menuAdicionarHorario"/>
+    
+    <item
+        android:id="@+id/menuSairLista"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/menuSair"/>
+
+</menu>

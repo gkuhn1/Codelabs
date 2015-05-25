@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">ContentProvider</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Contatos</string>
+
+    <string name="rotulo1">Nomes</string>
+    <string name="rotulo2">Nomes e Telefones</string>
+    <string name="rotulo3">Nomes, Telefones e E-Mails</string>
+    <string name="conteudo">Conteúdo</string>
+</resources>

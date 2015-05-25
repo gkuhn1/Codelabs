@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Biblioteca Musical</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Configurações</string>
+    <string name="lblNomeDoAlbum">Nome do álbum: </string>
+    <string name="lblAno">Ano: </string>
+    <string name="lblGenero">Gênero</string>
+    <string name="lblCompositor">Compositor: </string>
+    <string name="lblGravadora">Gravadora: </string>
+    <string name="lblObservacoes">Observações: </string>
+    <string name="btnConfirmar">Confirmar: </string>
+    <string name="btnCadastrarCD">Cadastrar CD</string>
+    <string name="btnListarCDs">Listar CDs</string>
+    <string name="btnCadastrarMusico">Cadastrar Músico</string>
+    <string name="btnListarMusicos">Listar Músicos</string>
+    <string name="lblNomeDoMusico">Nome do músico: </string>
+    <string name="lblEmBranco">Em branco: </string>
+
+    <string-array name="lstGerenosMusicais">
+        <item>Blues</item>
+        <item>Country</item>
+        <item>Eletrônica</item>
+        <item>Gospel</item>
+        <item>Jazz</item>
+        <item>Reggae</item>
+        <item>Rock"N"Roll</item>
+        <item>Outras</item>
+    </string-array>
+
+    <string name="title_activity_main">Tela principal</string>
+    <string name="title_activity_lista_cds">Lista CDs</string>
+    <string name="title_activity_activity_cadastrar_musico">ActivityCadastrarMusico</string>
+    <string name="title_activity_listar_musicos">ListarMusicos</string>
+
+</resources>

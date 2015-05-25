@@ -1,0 +1,11 @@
+<resources>
+
+  <string name="app_name">Randômicos_srv</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Serviço_Números_Rand.</string>
+ 	<string name="inicia">Iniciar o Serviço</string>
+ 	<string name="status">Estado do Serviço</string>
+    <string name="para">Parar o Serviço</string>
+
+</resources>

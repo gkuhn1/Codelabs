@@ -1,0 +1,116 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:id="@+id/rootLayout">
+	
+	<ViewFlipper android:id="@+id/flipper"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:flipInterval="2000"
+				android:padding="10px">
+				
+		<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal"
+				android:textSize="16px"
+				android:text="Entre com o CEP,"/>
+		
+		<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal"
+				android:textSize="16px"
+				android:text="clique na lupa ao lado ou"/>
+		
+		<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal"
+				android:textSize="16px"
+				android:text="pressione ENTER"/>
+	</ViewFlipper>
+	
+<LinearLayout android:orientation="horizontal"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content">
+		
+	<TextView android:id="@+id/tvCepDesc"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/cep_desc"/>
+	
+	<EditText android:id="@+id/etCEP"
+			android:layout_width="240px"
+			android:hint="Digite o CEP"
+			android:layout_height="wrap_content"/>
+	
+	<ImageButton android:id="@+id/imgBtnPesquisar"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/ic_launcher"/>
+	
+</LinearLayout>
+
+<LinearLayout android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	
+	<TextView android:id="@+id/tvEstado"
+		android:layout_width="wrap_content"
+		android:textSize="12px"
+		android:layout_height="wrap_content"
+		android:text="@string/estado"/>
+	
+	<TextView android:id="@+id/tvCidade"
+		android:layout_width="wrap_content"
+		android:textSize="12px"
+		android:layout_height="wrap_content"
+		android:text="@string/cidade"/>
+	
+	<TextView android:id="@+id/tvBairro"
+		android:layout_width="wrap_content"
+		android:textSize="12px"
+		android:layout_height="wrap_content"
+		android:text="@string/bairro"/>
+	
+	<TextView android:id="@+id/tvTipoLogradouro"
+		android:layout_width="wrap_content"
+		android:textSize="12px"
+		android:layout_height="wrap_content"
+		android:text="@string/tipo_logradouro"/>
+	
+	<TextView android:id="@+id/tvLogradouro"
+		android:layout_width="wrap_content"
+		android:textSize="12px"
+		android:layout_height="wrap_content"
+		android:text="@string/logradouro"/>
+		
+	<TextView android:id="@+id/tvComplemento"
+		android:layout_width="wrap_content"
+		android:textSize="12px"
+		android:layout_height="wrap_content"
+		android:text="@string/complemento"/>
+	
+</LinearLayout>
+
+<RelativeLayout
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+	<com.google.android.maps.MapView
+	    	android:id="@+id/map"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:apiKey="{api_key_gerada}"
+			android:clickable="true"/>
+	
+	<LinearLayout android:orientation="vertical" 
+    	android:id="@+id/map_zoom"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_centerHorizontal="true"
+		/>
+	
+</RelativeLayout>
+</LinearLayout>
